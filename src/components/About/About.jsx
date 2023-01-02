@@ -10,7 +10,7 @@ function About() {
       <div className='mainAboutMe'>
         <div className='leftAboutMe'>
           <div className='profileAboutMe'>
-            <h2>My Profile</h2>
+            <h2>About Me</h2>
               <h4>
                 I am a person with great motivation to learn, organized and flexible to changes. 
                 I have strong technical, social and teamwork skills. Obtained through my last training academic. 
