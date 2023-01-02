@@ -1,5 +1,5 @@
 import NavBar from '../NavBar/NavBar';
-import profile from '../../assets/profile.png';
+import profile from '../../assets/profile.jpg';
 import './About.css'
 
 function About() {
