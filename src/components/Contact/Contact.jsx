@@ -2,7 +2,7 @@ import React from 'react';
 import phone from '../../assets/phone.png'
 import email from '../../assets/email.png'
 import location from '../../assets/location.png'
-import Navbar from '../Navbar/Navbar';
+import NavBar from '../NavBar/NavBar';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -27,7 +27,7 @@ function Contact() {
 
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <div className='mainContactMe'>
         <div className='leftContactMe'>
           <div className='iconContainer'>

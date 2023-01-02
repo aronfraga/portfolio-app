@@ -1,4 +1,4 @@
-import NavBar from '../Navbar/NavBar';
+import NavBar from '../NavBar/NavBar';
 import profile from '../../assets/profile.png';
 import './About.css'
 
