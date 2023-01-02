@@ -1,0 +1,16 @@
+.mainNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
+.divTypewriterNotFound {
+	display: flex;
+  color:rgb(43, 41, 41);
+	text-shadow: 1px 1px 3px rgb(0, 0, 0);
+	font-weight: 400;
+	font-size: 80px;
+}

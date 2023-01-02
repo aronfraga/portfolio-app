@@ -26,16 +26,16 @@ function NavBar() {
           </div>
       </div>
         <div className='d-flex justify-content-end me-5'>
-          <a href={cvSpanish} target="_blank" >
+          <a className='icon' href={cvSpanish} target="_blank" >
             <img src={folerSpLogo} alt="githublogo" width="40" height="40" className="d-inline-block align-text-top ms-4" />
           </a>
-          <a href={cvEnglish} target="_blank">
+          <a className='icon' href={cvEnglish} target="_blank">
             <img src={folerEnLogo} alt="githublogo" width="40" height="40" className="d-inline-block align-text-top ms-4" />
           </a>
-          <a href="https://github.com/aronfraga" target="_blank">
+          <a className='icon' href="https://github.com/aronfraga" target="_blank">
             <img src={miniGitLogo} alt="githublogo" width="40" height="40" className="d-inline-block align-text-top ms-4" />
           </a>
-          <a href="https://www.linkedin.com/in/aaron-fraga-4036a8244" target="_blank">
+          <a className='icon' href="https://www.linkedin.com/in/aaron-fraga-4036a8244" target="_blank">
             <img src={miniLinkedinLogo} alt="linkedinlogo" width="40" height="40" className="d-inline-block align-text-top ms-4" />
           </a>
         </div>

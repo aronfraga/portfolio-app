@@ -1,4 +1,3 @@
-import React from 'react';
 import phone from '../../assets/phone.png'
 import email from '../../assets/email.png'
 import location from '../../assets/location.png'

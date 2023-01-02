@@ -7,3 +7,26 @@ nav.navbar {
   text-decoration: none;
 }
 
+.icon:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.icon.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .icon:nth-of-type(2) 
+  .icon {
+    animation: icon-spin infinite 20s linear;
+  }
+}
