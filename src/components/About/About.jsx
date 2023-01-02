@@ -1,11 +1,11 @@
-import Navbar from '../Navbar/Navbar';
+import NavBar from '../Navbar/NavBar';
 import profile from '../../assets/profile.png';
 import './About.css'
 
 function About() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <div className='mainAboutMe'>
         <div className='leftAboutMe'>
           <div className='profileAboutMe'>

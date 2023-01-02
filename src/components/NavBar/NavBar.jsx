@@ -6,7 +6,7 @@ import folerEnLogo from '../../assets/downoladen.png'
 import cvSpanish from '../../assets/CV_SP_AaronFraga.pdf'
 import cvEnglish from '../../assets/CV_EN_AaronFraga.pdf'
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import './NavBar.css';
 
 function NavBar() {
   return (
