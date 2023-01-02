@@ -1,0 +1,73 @@
+.mainContactMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.leftContactMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.rightContactMe {
+  width: 400px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconContactMe {
+  margin-top: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formInputContainer {
+  border: 0px;
+  border-radius: 4px;
+  width: 400px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  opacity: 50%;
+}
+
+.formTextContainer {
+  border-radius: 5px;
+  width: 400px;
+  height: 150px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  opacity: 50%;
+}
+
+.btnContactMe {
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-family: inherit;
+  background-color: rgb(87, 90, 90);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.btnContactMe:hover {
+  border-color: #646cff;
+}
+
+.btnContactMe:focus,
+.btnContactMe:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

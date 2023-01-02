@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+	background-image: url("../src/assets/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  position: center center;
+	font-family: Roboto, 'Open Sans', sans-serif;
+}
+
+h1, h3 {
+  color:rgb(43, 41, 41);
+}

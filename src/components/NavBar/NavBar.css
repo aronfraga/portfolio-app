@@ -1,0 +1,9 @@
+nav.navbar {
+  display: flexbox;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+

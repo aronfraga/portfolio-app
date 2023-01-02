@@ -1,0 +1,50 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  margin-left: 12px;
+  will-change: filter;
+  transition: all ease 200ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 3em #646cffaa);
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.logoDisabled {
+  height: 6em;
+  padding: 1.5em;
+  margin-left: 12px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
+.permanentText {
+	text-shadow: 1px 1px 3px rgb(0, 0, 0);
+	font-weight: 400;
+	font-size: 80px;
+}
+
+.divTypewriter {
+	display: flex;
+  color:rgb(43, 41, 41);
+	text-shadow: 1px 1px 3px rgb(0, 0, 0);
+	font-weight: 400;
+	font-size: 80px;
+}
