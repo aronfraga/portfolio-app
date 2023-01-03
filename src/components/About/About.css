@@ -44,3 +44,8 @@
   width: 400px;
   height: auto;
 }
+
+.titleAboutMe {
+  font-size: 40px;
+  font-family: 'Midwinter', Roboto, sans-serif;
+}

@@ -1,0 +1,50 @@
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  margin: 13px;
+  width: 26em;
+  height: auto;
+  border-radius: 0.6em;
+  overflow: hidden;
+  background-image: radial-gradient(circle, #ffffff,
+  #f3f3f3, #e8e8e8, #dcdcdc, #d1d1d1, #c9c9c9,
+  #c2c2c2, #bababa, #b4b4b4, #aeaeae, #a9a9a9, #a3a3a3);
+  box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -webkit-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -moz-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  transition: all ease 300ms;
+}
+
+.mainCard:hover {
+  transform: scale(1.03);
+}
+
+.imageContainer {
+  display: flex;
+  height: 250px;
+}
+
+.imageContainer img{
+  width: 100%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Midwinter', Roboto, sans-serif;
+}
+
+.textTech {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Midwinter', Roboto, sans-serif;
+}

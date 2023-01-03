@@ -23,6 +23,9 @@ function NavBar() {
             <Link to='/contact' className='link'>
               <h3 className='ms-4'>Contact Me</h3>
             </Link>
+            <Link to='/projects' className='link'>
+              <h3 className='ms-4'>Projects</h3>
+            </Link>
           </div>
       </div>
         <div className='d-flex justify-content-end me-5'>

@@ -5,9 +5,14 @@ body {
   background-attachment: fixed; 
   background-size: cover;
   position: center center;
-	font-family: Roboto, 'Open Sans', sans-serif;
 }
 
 h1, h3 {
   color:rgb(43, 41, 41);
+  font-family: 'Midwinter', Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: 'Midwinter';
+  src: url('../src/assets/Midwinter-qZ3g5.ttf');
 }
