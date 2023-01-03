@@ -21,7 +21,7 @@ function Home() {
 									.typeString('Backend Oriented')
 									.pauseFor(1000)
 									.deleteAll()
-									.typeString('preferably .NET Core')
+									.typeString('Preferably .NET Core')
 									.pauseFor(1000)
 									.deleteAll()
 									.typeString('Open to work')
