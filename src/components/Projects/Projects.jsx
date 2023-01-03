@@ -6,16 +6,16 @@ import parking from '../../assets/pr_parking.jpg';
 import './Projects.css'
 import CardProject from '../CardProject/CardProject';
 
-const projects = [{ name: 'Employee Clock',
-                    image: employeeClock,
-                    link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
-                    type:  'Back-End Project',
-                    tech: 'TypeScript | Express | MongoDB'},
-                  { name: 'Parking',
+const projects = [{ name: 'Parking',
                     image: parking,
                     link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
                     type:  'Back-End Project',
                     tech: 'C# | .NET Core | SQL Server'},
+                  { name: 'Employee Clock',
+                    image: employeeClock,
+                    link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
+                    type:  'Back-End Project',
+                    tech: 'TypeScript | Express | MongoDB'},
                   { name: 'Fitness Center',
                     image: fitnessCenter,
                     link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
@@ -25,7 +25,7 @@ const projects = [{ name: 'Employee Clock',
                     image: videogame,
                     link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
                     type:  'Full-Stack Project',
-                    tech: 'NodeJs | Express | React | Redux'}]
+                    tech: 'NodeJs | Express | React | Redux'}];
 
 function Projects() {
   return (
