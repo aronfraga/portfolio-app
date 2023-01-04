@@ -40,11 +40,17 @@
 .text {
   text-align: center;
   font-size: 30px;
+  color:rgb(43, 41, 41);
   font-family: 'Midwinter', Roboto, sans-serif;
 }
 
 .textTech {
   text-align: center;
   font-size: 15px;
+  color:rgb(43, 41, 41);
   font-family: 'Midwinter', Roboto, sans-serif;
+}
+
+.link {
+  text-decoration: none;
 }

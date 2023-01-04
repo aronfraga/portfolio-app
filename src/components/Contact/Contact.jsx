@@ -6,22 +6,38 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Contact.css'
+import { useState } from 'react';
 
 function Contact() {
 
+  let [ input, setInput ] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  function handlerInput(event) {
+    event.preventDefault();
+    setInput({ ...input, [event.target.name]: event.target.value });
+  }
+
   function notify(alert) {
-    if(alert) return toast('Thank you!!');
-    toast('Something went wrong, you can send me an email or try again');
+    if(alert) return toast('Thank you!! 🫡');
+    toast('Something went wrong, you can send me an email or try again 😬');
   }
 
   function handlerSend(event) {
     event.preventDefault();
-    emailjs.sendForm('service_u7krna5', 'template_3hermb9', event.target, 'cZjJXEWg6PPPR83Bb')
+    if(input.name && input.email && input.message) {
+      emailjs.sendForm('service_u7krna5', 'template_3hermb9', event.target, 'cZjJXEWg6PPPR83Bb')
           .then(function(response) {
             notify(true);
           }, function(error) {
             notify(false);
           });
+    } else {
+      toast('No data to send 🫠');
+    }
   }
 
   return (
@@ -44,9 +60,9 @@ function Contact() {
               from here. It's my pleasure to help you. </p>
           <form onSubmit={(event) => handlerSend(event)}>
             <div className='formContainer'>
-              <input className='formInputContainer' placeholder='Enter your name' type='text' name='name' />
-              <input className='formInputContainer' placeholder='Enter your email' type='text' name='email' />
-              <textarea className='formTextContainer' placeholder='Enter you message' name='message' />
+              <input className='formInputContainer' placeholder='Enter your name' type='text' name='name' onChange={handlerInput} value={input.description} />
+              <input className='formInputContainer' placeholder='Enter your email' type='text' name='email' onChange={handlerInput} value={input.description} />
+              <textarea className='formTextContainer' placeholder='Enter you message' name='message' onChange={handlerInput} value={input.description} />
             </div>
             <button className='btnContactMe' type='submit'>Send Now</button>
           </form>

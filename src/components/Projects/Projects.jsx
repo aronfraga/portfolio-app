@@ -3,29 +3,30 @@ import videogame from '../../assets/pr_videogame.jpg';
 import fitnessCenter from '../../assets/pr_gym.jpg';
 import employeeClock from '../../assets/pr_employee.jpg';
 import parking from '../../assets/pr_parking.jpg';
+import manual from '../../assets/dictionary.png';
 import './Projects.css'
 import CardProject from '../CardProject/CardProject';
 
 const projects = [{ name: 'Parking',
                     image: parking,
-                    link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
+                    link: 'https://www.aronfraga.dev/projects',
                     type:  'Back-End Project',
-                    tech: 'C# | .NET Core | SQL Server'},
+                    tech: 'C# | .NET Core | SQL Server' },
                   { name: 'Employee Clock',
                     image: employeeClock,
-                    link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
+                    link: 'https://www.aronfraga.dev/projects',
                     type:  'Back-End Project',
-                    tech: 'TypeScript | Express | MongoDB'},
+                    tech: 'TypeScript | Express | MongoDB' },
                   { name: 'Fitness Center',
                     image: fitnessCenter,
-                    link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
+                    link: 'https://app-gym-frontend.vercel.app/',
                     type:  'Full-Stack Project',
-                    tech: 'NodeJs | Express | React | Redux'},
+                    tech: 'NodeJs | Express | React | Redux' },
                   { name: 'Videogames',
                     image: videogame,
                     link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
                     type:  'Full-Stack Project',
-                    tech: 'NodeJs | Express | React | Redux'}];
+                    tech: 'NodeJs | Express | React | Redux' }];
 
 function Projects() {
   return (
@@ -38,7 +39,8 @@ function Projects() {
                        image={data.image}
                        link={data.link}
                        type={data.type}
-                       tech={data.tech}/>
+                       tech={data.tech}
+                       manual={data.manual}/>
         )}
 			</div>
     </div>
