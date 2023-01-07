@@ -3,18 +3,23 @@ import videogame from '../../assets/pr_videogame.jpg';
 import fitnessCenter from '../../assets/pr_gym.jpg';
 import employeeClock from '../../assets/pr_employee.jpg';
 import parking from '../../assets/pr_parking.jpg';
-import manual from '../../assets/dictionary.png';
+import movie from '../../assets/pr_movies.jpg';
 import './Projects.css'
 import CardProject from '../CardProject/CardProject';
 
-const projects = [{ name: 'Parking',
+const projects = [{ name: 'Movies',
+                    image: movie,
+                    link: 'http://13.55.250.90/',
+                    type:  'Back-End Project',
+                    tech: 'C# | .NET Core | SQL Server' },
+                  { name: 'Parking',
                     image: parking,
                     link: 'https://www.aronfraga.dev/projects',
                     type:  'Back-End Project',
                     tech: 'C# | .NET Core | SQL Server' },
                   { name: 'Employee Clock',
                     image: employeeClock,
-                    link: 'https://www.aronfraga.dev/projects',
+                    link: 'http://13.54.114.167/',
                     type:  'Back-End Project',
                     tech: 'TypeScript | Express | MongoDB' },
                   { name: 'Fitness Center',
