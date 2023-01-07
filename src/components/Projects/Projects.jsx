@@ -9,7 +9,7 @@ import CardProject from '../CardProject/CardProject';
 
 const projects = [{ name: 'Movies',
                     image: movie,
-                    link: 'http://13.55.250.90/',
+                    link: 'https://moviesapiapp.azurewebsites.net/api/welcome',
                     type:  'Back-End Project',
                     tech: 'C# | .NET Core | SQL Server' },
                   { name: 'Parking',
