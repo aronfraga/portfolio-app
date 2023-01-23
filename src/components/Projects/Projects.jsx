@@ -4,19 +4,25 @@ import fitnessCenter from '../../assets/pr_gym.jpg';
 import employeeClock from '../../assets/pr_employee.jpg';
 import parking from '../../assets/pr_parking.jpg';
 import movie from '../../assets/pr_movies.jpg';
+import shoppingcart from '../../assets/pr_shoppingcart.png';
 import './Projects.css'
 import CardProject from '../CardProject/CardProject';
 
-const projects = [{ name: 'Movies',
+const projects = [{ name: 'Shopping Cart',
+                    image: shoppingcart,
+                    link: 'http://aronfraga-001-site3.htempurl.com/swagger/index.html',
+                    type:  'Back-End Project',
+                    tech: 'C# | .NET Core | EF | JWT | SQL Server' },
+                  { name: 'Movies',
                     image: movie,
                     link: 'http://aronfraga-001-site1.htempurl.com/swagger/index.html',
                     type:  'Back-End Project',
-                    tech: 'C# | .NET Core | SQL Server' },
+                    tech: 'C# | .NET Core | EF | JWT | SQL Server' },
                   { name: 'Parking',
                     image: parking,
                     link: 'https://www.aronfraga.dev/projects',
                     type:  'Back-End Project',
-                    tech: 'C# | .NET Core | SQL Server' },
+                    tech: 'C# | .NET Core | EF | JWT | SQL Server'  },
                   { name: 'Employee Clock',
                     image: employeeClock,
                     link: 'http://13.54.114.167/employee/welcome',
