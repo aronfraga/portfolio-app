@@ -34,17 +34,17 @@ const projects = [{ name: 'Shopping Cart',
                     image: fitnessCenter,
                     link: 'https://app-gym-frontend.vercel.app/',
                     type:  'Full-Stack Project',
-                    tech: 'NodeJs | Express | React | Redux' },
+                    tech: 'NodeJs | Express | Sequelize | Auth0 | JWT | React | Redux' },
                   { name: 'Videogames',
                     image: videogame,
                     link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
                     type:  'Full-Stack Project',
-                    tech: 'NodeJs | Express | React | Redux' },
+                    tech: 'NodeJs | Express | Sequelize | React | Redux' },
                   { name: 'Bookstore',
                     image: bookstore,
                     link: 'http://aronfraga-001-site4.htempurl.com/',
                     type:  'Full-Stack Project',
-                    tech: 'C# | ASP.NET Core | EF | Entity | SQL Server' }];
+                    tech: 'C# | ASP.NET Core | EF | Identity | SQL Server' }];
 
 function Projects() {
   return (
