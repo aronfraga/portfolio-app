@@ -5,6 +5,8 @@ import employeeClock from '../../assets/pr_employee.jpg';
 import parking from '../../assets/pr_parking.jpg';
 import movie from '../../assets/pr_movies.jpg';
 import shoppingcart from '../../assets/pr_shoppingcart.png';
+import bookstore from '../../assets/pr_bookstore2.png';
+
 import './Projects.css'
 import CardProject from '../CardProject/CardProject';
 
@@ -37,7 +39,12 @@ const projects = [{ name: 'Shopping Cart',
                     image: videogame,
                     link: 'https://main.d3stec1pzh5mx.amplifyapp.com/',
                     type:  'Full-Stack Project',
-                    tech: 'NodeJs | Express | React | Redux' }];
+                    tech: 'NodeJs | Express | React | Redux' },
+                  { name: 'Bookstore',
+                    image: bookstore,
+                    link: 'http://aronfraga-001-site4.htempurl.com/',
+                    type:  'Full-Stack Project',
+                    tech: 'C# | ASP.NET Core | EF | Entity | SQL Server' }];
 
 function Projects() {
   return (
