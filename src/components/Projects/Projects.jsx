@@ -6,6 +6,7 @@ import parking from '../../assets/pr_parking.jpg';
 import movie from '../../assets/pr_movies.jpg';
 import shoppingcart from '../../assets/pr_shoppingcart.png';
 import bookstore from '../../assets/pr_bookstore2.png';
+import apiclient from '../../assets/apiclient.png';
 
 import './Projects.css'
 import CardProject from '../CardProject/CardProject';
@@ -44,7 +45,12 @@ const projects = [{ name: 'Shopping Cart',
                     image: bookstore,
                     link: 'http://aronfraga-001-site4.htempurl.com/',
                     type:  'Full-Stack Project',
-                    tech: 'C# | ASP.NET Core | EF | Identity | SQL Server' }];
+                    tech: 'C# | ASP.NET Core | EF | Identity | SQL Server' },
+                  { name: 'Api Client',
+                    image: apiclient,
+                    link: 'https://drive.google.com/file/d/1l5MMW7OQX59TH_EPIKRecwjFfyyu3ft3/view?usp=share_link/',
+                    type:  'Winforms Project',
+                    tech: 'C# | .NET | Winforms' }];
 
 function Projects() {
   return (
